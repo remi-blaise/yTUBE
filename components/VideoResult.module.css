@@ -1,0 +1,29 @@
+.video {
+    display: inline-block;
+    width:  500px;
+    margin: 30px;
+}
+
+.notLoggedIn {
+    filter: blur(4px);
+}
+
+.videoInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 30px;
+}
+
+.videoInfo h2 {
+    margin: 0;
+}
+
+.videoRightInfo {
+    text-align: right;
+}
+
+.videoRightInfo > * {
+    margin-bottom: 10px;
+}

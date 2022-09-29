@@ -1,0 +1,12 @@
+.vid {
+    width: 70%;
+}
+
+.tags > div {
+    display: inline-block;
+    margin: 10px;
+    border: solid 1px pink;
+    padding: 5px;
+    font-style: italic;
+    border-radius: 10px;
+}
