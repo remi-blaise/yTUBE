@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import Link from 'next/link'
 import Head from 'next/head'
 import styles from '../styles/[videoTitle].module.css'
@@ -49,7 +48,7 @@ export async function getServerSideProps({ params, req }) {
   }
 }
 
-const VideoPage: NextPage = ({ video }) => {
+const VideoPage = ({ video }: any) => {
   const router = useRouter()
   const { status } = useSession({
     required: true,

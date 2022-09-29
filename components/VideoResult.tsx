@@ -2,7 +2,7 @@ import Link from 'next/link'
 import styles from './VideoResult.module.css'
 import { useSession } from "next-auth/react"
 
-export default ({ video }) => {
+const VideoResult = ({ video }) => {
   const { data: session } = useSession()
 
   return (
@@ -25,3 +25,5 @@ export default ({ video }) => {
     </Link>
   )
 }
+
+export default VideoResult

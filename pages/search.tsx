@@ -1,4 +1,3 @@
-import type { NextPage } from 'next'
 import VideoResult from '../components/VideoResult'
 
 function search(q: string) {
@@ -36,7 +35,7 @@ export async function getServerSideProps({ query }) {
   }
 }
 
-const Search: NextPage = ({ videos, q }) => {
+const Search = ({ videos, q }) => {
   return (
     <div>
       <h1>Search query: {q}</h1>
